@@ -26,4 +26,5 @@ for i in range(len(rez[2])+1):
   x.append(x.popleft())
   corr.append(inner_product(x,rez[2]))
 print(corr)
-#plt.plot(corr)
+#x=range(len(corr))
+#plt.plot(x,corr)
